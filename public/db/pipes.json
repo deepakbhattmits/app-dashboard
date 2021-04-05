@@ -1,0 +1,2825 @@
+{
+	"status": "success",
+	"data": [
+		{
+			"modelNumber": 1009871,
+			"serialNumber": "ASD1009871",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 5,
+			"alerts": "Not Active",
+			"weeklyTotal": 2,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [9, 1, 9, 2, 8, 3, 7, 4, 6, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [5, 6, 7, 8, 9, 10, 1, 4, 3, 2],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 56.78 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [5, 9, 1, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 91.12 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [3, 8, 6, 10, 9, 7, 3, 8, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 34.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [9, 8, 6, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 78.99 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 5, 9, 4, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 45.67 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 8, 9, 10, 9, 7, 8, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 56.78 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 1, 9, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 56.78 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"modelNumber": 1009875,
+			"serialNumber": "PNT1009875",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 4,
+			"alerts": "Active",
+			"weeklyTotal": 3,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 1, 10, 9, 3, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 32.45 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 6, 10, 9, 7, 4, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 55.44 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					},
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 6, 4, 10, 9, 7, 2, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 18.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 6, 7, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 75.66 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 10, 4, 1, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 13.86 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 5, 10, 9, 7, 8, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 22.86 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					},
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 9, 1, 2, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 98.09 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					},
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 0, 1, 1, 9, 3, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 65.23 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"modelNumber": 1009872,
+			"serialNumber": "DFR1009872",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 3,
+			"alerts": "Not Active",
+			"weeklyTotal": 2,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 5, 6, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 6, 3, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 6, 6, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 2, 1, 10, 9, 2, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 5, 2, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 8, 10, 9, 1, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 0, 1, 10, 9, 9, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"modelNumber": 1009873,
+			"serialNumber": "QWE1009873",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 9,
+			"alerts": "Active",
+			"weeklyTotal": 3,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 2, 1, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 3, 4, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 5, 9, 2, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 5, 6, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 1, 1, 1, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 1, 1, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 1, 1, 1, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 4, 1, 1, 9, 7, 9, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"modelNumber": 1009876,
+			"serialNumber": "BNN1009876",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 1,
+			"alerts": "Not Active",
+			"weeklyTotal": 6,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 1, 1, 7, 6, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 10, 8, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 3, 4, 5, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 6, 7, 8, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 4, 5, 6, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 2, 2, 3, 4, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 4, 5, 6, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 2.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 3, 1, 8, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 3.55 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"modelNumber": 1009874,
+			"serialNumber": "CNT1009874",
+			"name": "Saint Mary Street Pump Station",
+			"description": "Pump for station 8675309",
+			"running": 7,
+			"alerts": "Active",
+			"weeklyTotal": 4,
+			"location": "Needham, MA",
+			"properties": [
+				{
+					"performance": {
+						"title": "Performance",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [6, 3, 8, 1, 5, 3, 9, 9, 4, 5],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 12.34 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"moniterProperties": {
+						"title": "Moniter Properties",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 5, 6, 7, 8, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 19.56 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"additionalProperties": {
+						"title": "Additional ProperTies",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 2, 3, 4, 5, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 90.51 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteAccess": {
+						"title": "Remote Access",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 4, 5, 6, 7, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 10.58 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransfer": {
+						"title": "File Transfer",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [5, 8, 7, 6, 5, 4, 3, 2, 1, 10],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 11.26 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"fileTransferHistory": {
+						"title": "File Transfer Hisory",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [1, 9, 8, 5, 1, 5, 6, 7, 2, 8],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 76.26 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"remoteCommands": {
+						"title": "Remote Commands",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [8, 7, 6, 5, 4, 3, 2, 1, 10, 9],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 13.26 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"workOrders": {
+						"title": "Work Orders",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [4, 5, 6, 3, 2, 1, 7, 8, 9, 10],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 17.86 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				},
+				{
+					"logs": {
+						"title": "Logs",
+						"chart": {
+							"labels": [
+								"10/04/2018",
+								"10/05/2018",
+								"10/06/2018",
+								"10/07/2018",
+								"10/08/2018",
+								"10/09/2018",
+								"10/10/2018",
+								"10/11/2018",
+								"10/12/2018",
+								"10/13/2018"
+							],
+							"datasets": [
+								{
+									"label": "Current Value",
+									"data": [2, 8, 1, 10, 9, 7, 3, 7, 5, 6],
+									"fill": false,
+									"borderColor": "lightgreen",
+									"borderWidth": 1.5
+								}
+							]
+						},
+						"data": [
+							{
+								"propertyName": {
+									"title": "Property Name",
+									"value": "Discharge"
+								}
+							},
+							{
+								"currentValue": { "title": "Current Value", "value": 72.36 }
+							},
+							{
+								"units": { "title": "Units" }
+							},
+							{
+								"lastUpdated": {
+									"title": "Last Updated",
+									"value": 1617525056699
+								}
+							},
+							{
+								"quality": { "title": "Quality", "value": "GOOD" }
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

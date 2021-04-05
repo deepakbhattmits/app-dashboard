@@ -1,0 +1,62 @@
+/** @format */
+
+$color-black: #000000;
+$color-white: #fff;
+$font-color: pink;
+$color-blue: #00008b;
+$color-link: #0000ee;
+$color-dark-gray: #ccc;
+$heading-color: #818cac;
+$error-color: red;
+$color-gray: #cccccc3d;
+$color-gray-border: #cccccce3;
+$color-bell-wrapper: #00008b9e;
+
+// Defining breakpoints values
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+/* Defaults */
+:root {
+	--color-gray: #{$color-gray};
+	--color-link: #{$color-link};
+	--color-gray-border: #{$color-gray-border};
+	--color-bell-wrapper: #{$color-bell-wrapper};
+	--color-error: #{$error-color};
+	--color-scheme-text-color: #{$font-color};
+	--color-scheme-blue: #{$color-blue};
+	--color-scheme-gray: #{$color-dark-gray};
+	--color-scheme-black: #{$color-black};
+	--color-scheme-white: #{$color-white};
+	--color-scheme-light-blue: #{$heading-color};
+}
+
+/* Light mode browser*/
+// @media (prefers-color-scheme: light) {
+//     :root {
+//         --color-scheme-background: #{$primary-color};
+//         --color-scheme-text-color:  #{$font-color};
+//     }
+// }
+
+/* -- Dark mode */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray: #{invert($color-gray)};
+		--color-link: #{invert($color-link)};
+		--color-gray-border: #{invert($color-gray-border)};
+		--color-bell-wrapper: #{invert($color-bell-wrapper)};
+		--color-error: #{invert($error-color)};
+		--color-scheme-text-color: #{invert($font-color)};
+		--color-scheme-blue: #{invert($color-blue)};
+		--color-scheme-gray: #{invert($color-dark-gray)};
+		--color-scheme-black: #{invert($color-black)};
+		--color-scheme-white: #{invert($color-white)};
+
+		--color-scheme-light-blue: #{invert($heading-color)};
+	}
+}
