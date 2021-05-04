@@ -6,7 +6,7 @@ import MainSection from './MainSection';
 import SideBar from './SideBar';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 import { getPipes } from '../store/actions';
-import Button from '../components/reusable/Button';
+// import Button from '../components/reusable/Button';
 
 const App = () => {
 	const [datas, setDatas] = useState([]);
@@ -77,9 +77,9 @@ const App = () => {
 				<SideBar />
 			</div>
 			<div className='main-section'>
-				<Button border='border-rounded' variant='secondary' size='large'>
+				{/* <Button border='border-rounded' variant='secondary' size='large'>
 					CART
-				</Button>
+				</Button> */}
 				<MainSection pipes={datas} handleChange={handleChange} />
 			</div>
 		</div>
