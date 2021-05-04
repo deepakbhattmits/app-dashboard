@@ -372,3 +372,34 @@
 		}
 	}
 }
+button {
+	cursor: pointer;
+	&.primary {
+		color: #fff;
+		background: blue;
+	}
+	&.secondary {
+		color: var(--color-black);
+		background: var(--color-gray);
+	}
+	&.large {
+		width: 100px;
+		padding: 10px 0;
+		font-size: 15px;
+	}
+	&.small {
+		width: 80px;
+		padding: 5px 0;
+		font-size: 8px;
+	}
+	&.no-border {
+		border: none;
+	}
+	&.border {
+		border-color: var(--color-gray-border);
+	}
+	&.rounded {
+		border-color: var(--color-gray-border);
+		border-radius: 3px;
+	}
+}

@@ -39,13 +39,14 @@ const SpecificMain = () => {
 		data?.pipes?.find(({ serialNumber }) => serialNumber === id)
 	);
 	const calChart = () => {
-		properties.find((el) => {
+		const calChart = properties.find((el) => {
 			Object.values(el).map(({ title, chart }) => {
 				if (title === active) {
 					setChart(chart);
 				}
 			});
 		});
+		return calChart;
 	};
 
 	const options = {
