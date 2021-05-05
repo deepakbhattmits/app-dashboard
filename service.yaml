@@ -10,6 +10,6 @@ spec:
     - port: 80
       targetPort: 80
       protocol: TCP
-      nodePort: 3000
+      nodePort: 32000
   selector:
     app: app-dashboard
