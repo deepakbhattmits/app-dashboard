@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +70,97 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### steps to follow to deploy to kubernates
+
+1. you have to create dockerfile
+
+### content of dockerfile
+
+FROM nginx:1.17
+COPY build/ /usr/share/nginx/html
+
+then you have to create .dockerignore file
+
+### content of .dockerignore
+
+node_modules/
+
+2. Then we run this command to create a docker image:
+   docker build -t my-react-app .
+
+3. Connect to a Kubernetes cluster
+   Open your Docker Desktop preferences and switch to your Kubernetes tab. Enable Kubernetes support here. It automatically creates a cluster for you.
+
+Once it is running, connect to it with kubectl
+
+kubectl config use-context docker-for-desktop
+
+4. Upload the Docker image to your container registry
+   To be able to pull the Docker image within the Kubernetes cluster, we need to upload the image to a Docker registry. We’re deploying the app into a local cluster, so we need a local registry.
+
+You can create one with this command:
+
+docker run -d -p 5000:5000 --restart=always --name registry registry:2
+
+To upload our Docker image, we have to tag it with the hostname and port of our registry:
+
+docker tag my-react-app localhost:5000/my-react-app
+And then we push the image to our Docker registry:
+
+docker push localhost:5000/my-react-app
+
+5. Deploy the React application
+   For deploying the React application to Kubernetes we need a deployment file. This makes sure our application will have as many replicas as we define. In addition, we can define the Docker image we want to use, what ports are used and further metadata for our application
+
+### content of deployment file
+
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+name: my-react-app
+spec:
+replicas: 2
+selector:
+matchLabels:
+app: my-react-app
+template:
+metadata:
+labels:
+app: my-react-app
+spec:
+containers: - name: my-react-app
+image: localhost:5000/my-react-app
+imagePullPolicy: Always
+ports: - containerPort: 80
+restartPolicy: Always
+
+With just the deployment we wouldn’t be able to access our application from outside. To expose applications, Kubernetes offers a service. Using a service we can define which ports to expose to the cluster/outside.
+so need to create service.yaml file for that
+
+### content of service.yaml
+
+kind: Service
+apiVersion: v1
+metadata:
+name: my-react-app
+spec:
+type: NodePort
+ports: - port: 80
+targetPort: 80
+protocol: TCP
+nodePort: 31000
+selector:
+app: my-react-app
+
+Now You can now use this file to deploy your application to Kubernetes with:
+
+kubectl apply -f deployment.yaml
+
+kubectl apply -f service.yaml
+
+You can then check if everything’s running using:
+
+kubectl get pods kubectl get deployment kubectl get service
+
+If everything went right, you should be able to go to http://localhost:31000 and see your react app, now served from a Kubernetes cluster
